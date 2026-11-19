@@ -85,7 +85,7 @@ Then open http://localhost:8000.
 
 **AI commentary (optional).** Without an API key, commentary uses deterministic templates. To have Claude write it instead, set `ANTHROPIC_API_KEY` before starting the server. The model only sees numbers the engine has already calculated, and it is told not to compute anything new. If the call fails, the app falls back to the templates.
 
-**Tests:** `python -m pytest -q`
+**Tests:** pip install pytest httpx && python -m pytest -q
 
 **Regenerate the synthetic data:** `python scripts/generate_data.py` (LibreOffice is optional; it's only used to save the displayed values into the sample files).
 
