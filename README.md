@@ -2,8 +2,7 @@
 
 **FP&A control book review and P&L forecasting, in one web app.**
 
-**Live demo:** https://your-url.onrender.com (first load may take ~30 seconds)
-
+**Live demo:** [clarity-demo-arvy.onrender.com](https://clarity-demo-arvy.onrender.com) (first load may take ~30 seconds)
 Clarity takes a quarterly control book, recalculates every formula, compares the numbers to five years of history, and gives back a checklist of what doesn't add up. It also ranks the top movers and drafts slide-ready commentary for them. A second tab forecasts the P&L up to eight quarters out, using five models that are each backtested before the app picks which ones to trust.
 
 > **About this project.** I designed the original version of Clarity during my Corporate FP&A internship. That version ran on internal data and can't be shared. This repo rebuilds the same approach from scratch, using a fictional company called **Meridian Systems** that anyone can open and test. Every number in this repo is synthetic.
