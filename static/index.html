@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clarity Demo · FP&amp;A review and forecasting</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%230672CB'/><path d='M10 17l4 4 8-9' stroke='white' stroke-width='3' fill='none' stroke-linecap='round'/></svg>">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#home" data-route="home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>Clarity <em>Demo</em></span>
+    </a>
+    <nav class="tabs" aria-label="Main">
+      <a href="#home" data-route="home">Overview</a>
+      <a href="#check" data-route="check">Check</a>
+      <a href="#forecast" data-route="forecast">Forecast</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- ============================== HOME -->
+<section id="view-home" class="view">
+  <div class="hero">
+    <div class="wrap hero-inner">
+      <p class="eyebrow">FP&amp;A review and forecasting</p>
+      <h1>Review a control book in seconds,<br>then see where the P&amp;L is heading.</h1>
+      <p class="lede">Clarity recalculates every formula in a quarterly control book, compares it to five years of history,
+        flags what doesn't add up, and writes slide-ready commentary for the biggest movers. A second tab forecasts the
+        P&amp;L up to eight quarters out using five backtested models.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#check" data-route="check">Run the Check tool</a>
+        <a class="btn btn-ghost" href="#forecast" data-route="forecast">Open the Forecast tool</a>
+      </div>
+      <p class="data-note">All data is synthetic. Meridian Systems is a fictional company with three business units and FY22 to FY26 history.</p>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="tool-cards">
+      <a class="tool-card" href="#check" data-route="check">
+        <span class="tool-num">01</span>
+        <h2>Check</h2>
+        <p>Upload a control book, or load a preloaded one, and click Analyze.</p>
+        <ul>
+          <li>Recalculates every formula and ties out GM, Operating Income and totals</li>
+          <li>Flags broken references, inconsistent formulas, typed-over values and double counting</li>
+          <li>Machine-learning anomaly detection against FY22 to FY26 history</li>
+          <li>Ranks the top 10 movers and drafts slide-ready commentary</li>
+        </ul>
+        <span class="card-link">Open Check →</span>
+      </a>
+      <a class="tool-card" href="#forecast" data-route="forecast">
+        <span class="tool-num">02</span>
+        <h2>Forecast</h2>
+        <p>Pick a business unit, the guiding principles, and a horizon of 1 to 8 quarters.</p>
+        <ul>
+          <li>Five models: Holt-Winters, linear regression, SARIMA, seasonal naive and Theta</li>
+          <li>Backtests each on the last four quarters, then picks the winner or averages the best three</li>
+          <li>Forecasts drivers, then calculates GM and Operating Income so the P&amp;L ties</li>
+          <li>Tests the forecast year against budget targets</li>
+        </ul>
+        <span class="card-link">Open Forecast →</span>
+      </a>
+    </div>
+
+    <h2 class="section-title">How the Check tool works</h2>
+    <ol class="pipeline">
+      <li><b>Read</b><span>Formulas and displayed values, read separately</span></li>
+      <li><b>Recalculate</b><span>Every formula through Clarity's own evaluator</span></li>
+      <li><b>Audit</b><span>Pattern, hardcode, duplicate and tie-out checks</span></li>
+      <li><b>Compare</b><span>Robust z-scores plus an isolation forest on 5 years of history</span></li>
+      <li><b>Explain</b><span>Blend-ranked movers and slide-style commentary</span></li>
+    </ol>
+
+    <div class="principles">
+      <div>
+        <h3>Automate the labor, never the judgment</h3>
+        <p>All of the math is done in code. The language model, when one is connected, only writes the commentary
+          and never calculates a number. Without an API key, commentary falls back to deterministic templates.</p>
+      </div>
+      <div>
+        <h3>Built from a real internship project</h3>
+        <p>This demo rebuilds a tool designed during a Corporate FP&amp;A internship. The original ran on internal data,
+          so this version recreates the approach on an invented company that anyone can open and test.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== CHECK -->
+<section id="view-check" class="view" hidden>
+  <div class="wrap page-head">
+    <div>
+      <p class="eyebrow">Tool 01</p>
+      <h1>Check</h1>
+      <p class="muted">Accuracy audit, anomaly detection, key movers and commentary for one control book.</p>
+    </div>
+  </div>
+  <div class="wrap layout">
+    <aside class="panel controls">
+      <h3>1. Choose a control book</h3>
+      <label class="radio-card">
+        <input type="radio" name="src" value="with_issues" checked>
+        <span><b>FY27 Q1 Outlook, Draft v3</b><small>Preloaded. Contains planted errors.</small></span>
+      </label>
+      <label class="radio-card">
+        <input type="radio" name="src" value="clean">
+        <span><b>FY27 Q1 Outlook, Final v4</b><small>Preloaded. Clean version.</small></span>
+      </label>
+      <label class="radio-card">
+        <input type="radio" name="src" value="upload">
+        <span><b>Upload your own</b><small>.xlsx in the control book format</small></span>
+      </label>
+      <input type="file" id="check-file" accept=".xlsx,.xlsm" hidden>
+      <p class="file-name" id="check-file-name"></p>
+      <p class="tiny">Want to test an upload? <a href="/api/samples/with_issues">Download a sample</a>, edit a few cells, and upload it.</p>
+
+      <h3>2. Compare movers on</h3>
+      <div class="seg" id="basis">
+        <button data-v="yoy" class="on">YoY</button><button data-v="qoq">QoQ</button><button data-v="plan">vs Plan</button>
+      </div>
+
+      <button class="btn btn-primary btn-block" id="run-check">Analyze</button>
+      <button class="btn btn-ghost btn-block" id="export-check" disabled>Download reviewed workbook</button>
+    </aside>
+
+    <div class="results" id="check-results">
+      <div class="empty">
+        <div class="empty-icon"></div>
+        <p>Choose a control book and click <b>Analyze</b>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FORECAST -->
+<section id="view-forecast" class="view" hidden>
+  <div class="wrap page-head">
+    <div>
+      <p class="eyebrow">Tool 02</p>
+      <h1>Forecast</h1>
+      <p class="muted">P&amp;L forecast from historical drivers, with backtested model selection.</p>
+    </div>
+  </div>
+  <div class="wrap layout">
+    <aside class="panel controls">
+      <h3>1. Historical data</h3>
+      <select id="fc-source">
+        <option value="catalogue">Catalogue: Meridian FY22–FY26 actuals</option>
+        <option value="upload">Upload a history CSV…</option>
+      </select>
+      <input type="file" id="fc-file" accept=".csv" hidden>
+      <p class="file-name" id="fc-file-name"></p>
+      <p class="tiny"><a href="/api/history.csv">Download the history CSV</a> to see the expected format.</p>
+
+      <h3>2. Business unit</h3>
+      <select id="fc-bu"></select>
+
+      <h3>3. Guiding principles</h3>
+      <select id="fc-gp"></select>
+
+      <h3>4. Quarters to forecast <output id="fc-h-out">4</output></h3>
+      <input type="range" id="fc-h" min="1" max="8" value="4">
+
+      <button class="btn btn-primary btn-block" id="run-fc">Run forecast</button>
+    </aside>
+
+    <div class="results" id="fc-results">
+      <div class="empty">
+        <div class="empty-icon"></div>
+        <p>Pick your inputs and click <b>Run forecast</b>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    Clarity Demo · built by Malkam Wallace · synthetic data only ·
+    <a href="https://github.com/MalkamWallace/clarity-demo">Source on GitHub</a>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

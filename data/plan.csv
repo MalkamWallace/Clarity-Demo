@@ -1,0 +1,442 @@
+quarter,bu,line,value
+FY22 Q1,Devices,Revenue,867.8
+FY22 Q1,Devices,COGS,676.9
+FY22 Q1,Devices,Gross Margin,190.9
+FY22 Q1,Devices,Opex,93.5
+FY22 Q1,Devices,Operating Income,97.4
+FY22 Q1,Devices,Units (K),4339.1
+FY22 Q1,Devices,Headcount,4200.0
+FY22 Q1,Infrastructure,Revenue,572.5
+FY22 Q1,Infrastructure,COGS,389.3
+FY22 Q1,Infrastructure,Gross Margin,183.2
+FY22 Q1,Infrastructure,Opex,81.3
+FY22 Q1,Infrastructure,Operating Income,101.9
+FY22 Q1,Infrastructure,Units (K),114.5
+FY22 Q1,Infrastructure,Headcount,3100.0
+FY22 Q1,Software & Services,Revenue,216.6
+FY22 Q1,Software & Services,COGS,65.0
+FY22 Q1,Software & Services,Gross Margin,151.6
+FY22 Q1,Software & Services,Opex,72.0
+FY22 Q1,Software & Services,Operating Income,79.6
+FY22 Q1,Software & Services,Units (K),393.8
+FY22 Q1,Software & Services,Headcount,1900.0
+FY22 Q2,Devices,Revenue,903.0
+FY22 Q2,Devices,COGS,703.4
+FY22 Q2,Devices,Gross Margin,199.6
+FY22 Q2,Devices,Opex,96.7
+FY22 Q2,Devices,Operating Income,102.9
+FY22 Q2,Devices,Units (K),4514.8
+FY22 Q2,Devices,Headcount,4221.0
+FY22 Q2,Infrastructure,Revenue,617.9
+FY22 Q2,Infrastructure,COGS,419.6
+FY22 Q2,Infrastructure,Gross Margin,198.3
+FY22 Q2,Infrastructure,Opex,86.9
+FY22 Q2,Infrastructure,Operating Income,111.4
+FY22 Q2,Infrastructure,Units (K),123.6
+FY22 Q2,Infrastructure,Headcount,3115.0
+FY22 Q2,Software & Services,Revenue,228.4
+FY22 Q2,Software & Services,COGS,68.3
+FY22 Q2,Software & Services,Gross Margin,160.1
+FY22 Q2,Software & Services,Opex,75.3
+FY22 Q2,Software & Services,Operating Income,84.8
+FY22 Q2,Software & Services,Units (K),415.3
+FY22 Q2,Software & Services,Headcount,1909.0
+FY22 Q3,Devices,Revenue,929.3
+FY22 Q3,Devices,COGS,723.0
+FY22 Q3,Devices,Gross Margin,206.3
+FY22 Q3,Devices,Opex,99.1
+FY22 Q3,Devices,Operating Income,107.2
+FY22 Q3,Devices,Units (K),4646.7
+FY22 Q3,Devices,Headcount,4242.0
+FY22 Q3,Infrastructure,Revenue,620.7
+FY22 Q3,Infrastructure,COGS,420.9
+FY22 Q3,Infrastructure,Gross Margin,199.8
+FY22 Q3,Infrastructure,Opex,87.1
+FY22 Q3,Infrastructure,Operating Income,112.7
+FY22 Q3,Infrastructure,Units (K),124.1
+FY22 Q3,Infrastructure,Headcount,3131.0
+FY22 Q3,Software & Services,Revenue,238.4
+FY22 Q3,Software & Services,COGS,71.0
+FY22 Q3,Software & Services,Gross Margin,167.4
+FY22 Q3,Software & Services,Opex,78.1
+FY22 Q3,Software & Services,Operating Income,89.3
+FY22 Q3,Software & Services,Units (K),433.5
+FY22 Q3,Software & Services,Headcount,1919.0
+FY22 Q4,Devices,Revenue,1049.9
+FY22 Q4,Devices,COGS,815.7
+FY22 Q4,Devices,Gross Margin,234.2
+FY22 Q4,Devices,Opex,110.7
+FY22 Q4,Devices,Operating Income,123.5
+FY22 Q4,Devices,Units (K),5249.3
+FY22 Q4,Devices,Headcount,4263.0
+FY22 Q4,Infrastructure,Revenue,699.8
+FY22 Q4,Infrastructure,COGS,473.8
+FY22 Q4,Infrastructure,Gross Margin,226.0
+FY22 Q4,Infrastructure,Opex,97.0
+FY22 Q4,Infrastructure,Operating Income,129.0
+FY22 Q4,Infrastructure,Units (K),140.0
+FY22 Q4,Infrastructure,Headcount,3146.0
+FY22 Q4,Software & Services,Revenue,261.1
+FY22 Q4,Software & Services,COGS,77.6
+FY22 Q4,Software & Services,Gross Margin,183.5
+FY22 Q4,Software & Services,Opex,84.6
+FY22 Q4,Software & Services,Operating Income,98.9
+FY22 Q4,Software & Services,Units (K),474.8
+FY22 Q4,Software & Services,Headcount,1928.0
+FY23 Q1,Devices,Revenue,898.2
+FY23 Q1,Devices,COGS,697.0
+FY23 Q1,Devices,Gross Margin,201.2
+FY23 Q1,Devices,Opex,95.6
+FY23 Q1,Devices,Operating Income,105.6
+FY23 Q1,Devices,Units (K),4491.0
+FY23 Q1,Devices,Headcount,4284.0
+FY23 Q1,Infrastructure,Revenue,606.8
+FY23 Q1,Infrastructure,COGS,410.2
+FY23 Q1,Infrastructure,Gross Margin,196.6
+FY23 Q1,Infrastructure,Opex,84.9
+FY23 Q1,Infrastructure,Operating Income,111.7
+FY23 Q1,Infrastructure,Units (K),121.4
+FY23 Q1,Infrastructure,Headcount,3162.0
+FY23 Q1,Software & Services,Revenue,246.9
+FY23 Q1,Software & Services,COGS,73.1
+FY23 Q1,Software & Services,Gross Margin,173.8
+FY23 Q1,Software & Services,Opex,80.3
+FY23 Q1,Software & Services,Operating Income,93.5
+FY23 Q1,Software & Services,Units (K),449.0
+FY23 Q1,Software & Services,Headcount,1938.0
+FY23 Q2,Devices,Revenue,934.6
+FY23 Q2,Devices,COGS,724.3
+FY23 Q2,Devices,Gross Margin,210.3
+FY23 Q2,Devices,Opex,98.9
+FY23 Q2,Devices,Operating Income,111.4
+FY23 Q2,Devices,Units (K),4672.8
+FY23 Q2,Devices,Headcount,4305.0
+FY23 Q2,Infrastructure,Revenue,655.0
+FY23 Q2,Infrastructure,COGS,442.1
+FY23 Q2,Infrastructure,Gross Margin,212.9
+FY23 Q2,Infrastructure,Opex,90.8
+FY23 Q2,Infrastructure,Operating Income,122.1
+FY23 Q2,Infrastructure,Units (K),131.0
+FY23 Q2,Infrastructure,Headcount,3177.0
+FY23 Q2,Software & Services,Revenue,260.4
+FY23 Q2,Software & Services,COGS,76.8
+FY23 Q2,Software & Services,Gross Margin,183.6
+FY23 Q2,Software & Services,Opex,84.0
+FY23 Q2,Software & Services,Operating Income,99.6
+FY23 Q2,Software & Services,Units (K),473.5
+FY23 Q2,Software & Services,Headcount,1947.0
+FY23 Q3,Devices,Revenue,961.9
+FY23 Q3,Devices,COGS,744.5
+FY23 Q3,Devices,Gross Margin,217.4
+FY23 Q3,Devices,Opex,101.3
+FY23 Q3,Devices,Operating Income,116.1
+FY23 Q3,Devices,Units (K),4809.4
+FY23 Q3,Devices,Headcount,4326.0
+FY23 Q3,Infrastructure,Revenue,658.0
+FY23 Q3,Infrastructure,COGS,443.5
+FY23 Q3,Infrastructure,Gross Margin,214.5
+FY23 Q3,Infrastructure,Opex,91.0
+FY23 Q3,Infrastructure,Operating Income,123.5
+FY23 Q3,Infrastructure,Units (K),131.6
+FY23 Q3,Infrastructure,Headcount,3193.0
+FY23 Q3,Software & Services,Revenue,271.8
+FY23 Q3,Software & Services,COGS,79.9
+FY23 Q3,Software & Services,Gross Margin,191.9
+FY23 Q3,Software & Services,Opex,87.1
+FY23 Q3,Software & Services,Operating Income,104.8
+FY23 Q3,Software & Services,Units (K),494.2
+FY23 Q3,Software & Services,Headcount,1957.0
+FY23 Q4,Devices,Revenue,1086.6
+FY23 Q4,Devices,COGS,839.9
+FY23 Q4,Devices,Gross Margin,246.7
+FY23 Q4,Devices,Opex,113.2
+FY23 Q4,Devices,Operating Income,133.5
+FY23 Q4,Devices,Units (K),5433.0
+FY23 Q4,Devices,Headcount,4347.0
+FY23 Q4,Infrastructure,Revenue,741.8
+FY23 Q4,Infrastructure,COGS,499.2
+FY23 Q4,Infrastructure,Gross Margin,242.6
+FY23 Q4,Infrastructure,Opex,101.3
+FY23 Q4,Infrastructure,Operating Income,141.3
+FY23 Q4,Infrastructure,Units (K),148.4
+FY23 Q4,Infrastructure,Headcount,3208.0
+FY23 Q4,Software & Services,Revenue,297.7
+FY23 Q4,Software & Services,COGS,87.2
+FY23 Q4,Software & Services,Gross Margin,210.5
+FY23 Q4,Software & Services,Opex,94.5
+FY23 Q4,Software & Services,Operating Income,116.0
+FY23 Q4,Software & Services,Units (K),541.3
+FY23 Q4,Software & Services,Headcount,1966.0
+FY24 Q1,Devices,Revenue,929.6
+FY24 Q1,Devices,COGS,717.7
+FY24 Q1,Devices,Gross Margin,211.9
+FY24 Q1,Devices,Opex,97.8
+FY24 Q1,Devices,Operating Income,114.1
+FY24 Q1,Devices,Units (K),4648.2
+FY24 Q1,Devices,Headcount,4368.0
+FY24 Q1,Infrastructure,Revenue,643.2
+FY24 Q1,Infrastructure,COGS,432.2
+FY24 Q1,Infrastructure,Gross Margin,211.0
+FY24 Q1,Infrastructure,Opex,88.7
+FY24 Q1,Infrastructure,Operating Income,122.3
+FY24 Q1,Infrastructure,Units (K),128.6
+FY24 Q1,Infrastructure,Headcount,3224.0
+FY24 Q1,Software & Services,Revenue,281.5
+FY24 Q1,Software & Services,COGS,82.2
+FY24 Q1,Software & Services,Gross Margin,199.3
+FY24 Q1,Software & Services,Opex,89.5
+FY24 Q1,Software & Services,Operating Income,109.8
+FY24 Q1,Software & Services,Units (K),511.8
+FY24 Q1,Software & Services,Headcount,1976.0
+FY24 Q2,Devices,Revenue,967.3
+FY24 Q2,Devices,COGS,745.8
+FY24 Q2,Devices,Gross Margin,221.5
+FY24 Q2,Devices,Opex,101.2
+FY24 Q2,Devices,Operating Income,120.3
+FY24 Q2,Devices,Units (K),4836.4
+FY24 Q2,Devices,Headcount,4389.0
+FY24 Q2,Infrastructure,Revenue,694.3
+FY24 Q2,Infrastructure,COGS,465.9
+FY24 Q2,Infrastructure,Gross Margin,228.4
+FY24 Q2,Infrastructure,Opex,94.9
+FY24 Q2,Infrastructure,Operating Income,133.5
+FY24 Q2,Infrastructure,Units (K),138.9
+FY24 Q2,Infrastructure,Headcount,3240.0
+FY24 Q2,Software & Services,Revenue,296.9
+FY24 Q2,Software & Services,COGS,86.4
+FY24 Q2,Software & Services,Gross Margin,210.5
+FY24 Q2,Software & Services,Opex,93.8
+FY24 Q2,Software & Services,Operating Income,116.7
+FY24 Q2,Software & Services,Units (K),539.8
+FY24 Q2,Software & Services,Headcount,1985.0
+FY24 Q3,Devices,Revenue,995.5
+FY24 Q3,Devices,COGS,766.6
+FY24 Q3,Devices,Gross Margin,228.9
+FY24 Q3,Devices,Opex,103.6
+FY24 Q3,Devices,Operating Income,125.3
+FY24 Q3,Devices,Units (K),4977.7
+FY24 Q3,Devices,Headcount,4410.0
+FY24 Q3,Infrastructure,Revenue,697.5
+FY24 Q3,Infrastructure,COGS,467.3
+FY24 Q3,Infrastructure,Gross Margin,230.2
+FY24 Q3,Infrastructure,Opex,95.1
+FY24 Q3,Infrastructure,Operating Income,135.1
+FY24 Q3,Infrastructure,Units (K),139.5
+FY24 Q3,Infrastructure,Headcount,3255.0
+FY24 Q3,Software & Services,Revenue,309.8
+FY24 Q3,Software & Services,COGS,89.9
+FY24 Q3,Software & Services,Gross Margin,219.9
+FY24 Q3,Software & Services,Opex,97.3
+FY24 Q3,Software & Services,Operating Income,122.6
+FY24 Q3,Software & Services,Units (K),563.4
+FY24 Q3,Software & Services,Headcount,1995.0
+FY24 Q4,Devices,Revenue,1124.6
+FY24 Q4,Devices,COGS,864.8
+FY24 Q4,Devices,Gross Margin,259.8
+FY24 Q4,Devices,Opex,115.8
+FY24 Q4,Devices,Operating Income,144.0
+FY24 Q4,Devices,Units (K),5623.2
+FY24 Q4,Devices,Headcount,4431.0
+FY24 Q4,Infrastructure,Revenue,786.3
+FY24 Q4,Infrastructure,COGS,526.1
+FY24 Q4,Infrastructure,Gross Margin,260.2
+FY24 Q4,Infrastructure,Opex,105.9
+FY24 Q4,Infrastructure,Operating Income,154.3
+FY24 Q4,Infrastructure,Units (K),157.3
+FY24 Q4,Infrastructure,Headcount,3270.0
+FY24 Q4,Software & Services,Revenue,339.4
+FY24 Q4,Software & Services,COGS,98.1
+FY24 Q4,Software & Services,Gross Margin,241.3
+FY24 Q4,Software & Services,Opex,105.6
+FY24 Q4,Software & Services,Operating Income,135.7
+FY24 Q4,Software & Services,Units (K),617.0
+FY24 Q4,Software & Services,Headcount,2004.0
+FY25 Q1,Devices,Revenue,962.2
+FY25 Q1,Devices,COGS,738.9
+FY25 Q1,Devices,Gross Margin,223.3
+FY25 Q1,Devices,Opex,100.0
+FY25 Q1,Devices,Operating Income,123.3
+FY25 Q1,Devices,Units (K),4810.9
+FY25 Q1,Devices,Headcount,4452.0
+FY25 Q1,Infrastructure,Revenue,681.8
+FY25 Q1,Infrastructure,COGS,455.4
+FY25 Q1,Infrastructure,Gross Margin,226.4
+FY25 Q1,Infrastructure,Opex,92.7
+FY25 Q1,Infrastructure,Operating Income,133.7
+FY25 Q1,Infrastructure,Units (K),136.4
+FY25 Q1,Infrastructure,Headcount,3286.0
+FY25 Q1,Software & Services,Revenue,320.9
+FY25 Q1,Software & Services,COGS,92.4
+FY25 Q1,Software & Services,Gross Margin,228.5
+FY25 Q1,Software & Services,Opex,100.0
+FY25 Q1,Software & Services,Operating Income,128.5
+FY25 Q1,Software & Services,Units (K),583.5
+FY25 Q1,Software & Services,Headcount,2014.0
+FY25 Q2,Devices,Revenue,1001.1
+FY25 Q2,Devices,COGS,767.9
+FY25 Q2,Devices,Gross Margin,233.2
+FY25 Q2,Devices,Opex,103.4
+FY25 Q2,Devices,Operating Income,129.8
+FY25 Q2,Devices,Units (K),5005.7
+FY25 Q2,Devices,Headcount,4473.0
+FY25 Q2,Infrastructure,Revenue,736.0
+FY25 Q2,Infrastructure,COGS,490.9
+FY25 Q2,Infrastructure,Gross Margin,245.1
+FY25 Q2,Infrastructure,Opex,99.2
+FY25 Q2,Infrastructure,Operating Income,145.9
+FY25 Q2,Infrastructure,Units (K),147.2
+FY25 Q2,Infrastructure,Headcount,3302.0
+FY25 Q2,Software & Services,Revenue,338.4
+FY25 Q2,Software & Services,COGS,97.1
+FY25 Q2,Software & Services,Gross Margin,241.3
+FY25 Q2,Software & Services,Opex,104.8
+FY25 Q2,Software & Services,Operating Income,136.5
+FY25 Q2,Software & Services,Units (K),615.3
+FY25 Q2,Software & Services,Headcount,2024.0
+FY25 Q3,Devices,Revenue,1030.4
+FY25 Q3,Devices,COGS,789.3
+FY25 Q3,Devices,Gross Margin,241.1
+FY25 Q3,Devices,Opex,106.0
+FY25 Q3,Devices,Operating Income,135.1
+FY25 Q3,Devices,Units (K),5151.9
+FY25 Q3,Devices,Headcount,4494.0
+FY25 Q3,Infrastructure,Revenue,739.3
+FY25 Q3,Infrastructure,COGS,492.4
+FY25 Q3,Infrastructure,Gross Margin,246.9
+FY25 Q3,Infrastructure,Opex,99.4
+FY25 Q3,Infrastructure,Operating Income,147.5
+FY25 Q3,Infrastructure,Units (K),147.9
+FY25 Q3,Infrastructure,Headcount,3317.0
+FY25 Q3,Software & Services,Revenue,353.2
+FY25 Q3,Software & Services,COGS,101.0
+FY25 Q3,Software & Services,Gross Margin,252.2
+FY25 Q3,Software & Services,Opex,108.7
+FY25 Q3,Software & Services,Operating Income,143.5
+FY25 Q3,Software & Services,Units (K),642.2
+FY25 Q3,Software & Services,Headcount,2033.0
+FY25 Q4,Devices,Revenue,1164.0
+FY25 Q4,Devices,COGS,890.5
+FY25 Q4,Devices,Gross Margin,273.5
+FY25 Q4,Devices,Opex,118.4
+FY25 Q4,Devices,Operating Income,155.1
+FY25 Q4,Devices,Units (K),5820.0
+FY25 Q4,Devices,Headcount,4515.0
+FY25 Q4,Infrastructure,Revenue,833.5
+FY25 Q4,Infrastructure,COGS,554.3
+FY25 Q4,Infrastructure,Gross Margin,279.2
+FY25 Q4,Infrastructure,Opex,110.8
+FY25 Q4,Infrastructure,Operating Income,168.4
+FY25 Q4,Infrastructure,Units (K),166.7
+FY25 Q4,Infrastructure,Headcount,3332.0
+FY25 Q4,Software & Services,Revenue,386.9
+FY25 Q4,Software & Services,COGS,110.3
+FY25 Q4,Software & Services,Gross Margin,276.6
+FY25 Q4,Software & Services,Opex,118.1
+FY25 Q4,Software & Services,Operating Income,158.5
+FY25 Q4,Software & Services,Units (K),703.4
+FY25 Q4,Software & Services,Headcount,2042.0
+FY26 Q1,Devices,Revenue,995.8
+FY26 Q1,Devices,COGS,760.8
+FY26 Q1,Devices,Gross Margin,235.0
+FY26 Q1,Devices,Opex,102.2
+FY26 Q1,Devices,Operating Income,132.8
+FY26 Q1,Devices,Units (K),4979.2
+FY26 Q1,Devices,Headcount,4536.0
+FY26 Q1,Infrastructure,Revenue,722.7
+FY26 Q1,Infrastructure,COGS,479.9
+FY26 Q1,Infrastructure,Gross Margin,242.8
+FY26 Q1,Infrastructure,Opex,96.9
+FY26 Q1,Infrastructure,Operating Income,145.9
+FY26 Q1,Infrastructure,Units (K),144.5
+FY26 Q1,Infrastructure,Headcount,3348.0
+FY26 Q1,Software & Services,Revenue,365.8
+FY26 Q1,Software & Services,COGS,103.9
+FY26 Q1,Software & Services,Gross Margin,261.9
+FY26 Q1,Software & Services,Opex,111.8
+FY26 Q1,Software & Services,Operating Income,150.1
+FY26 Q1,Software & Services,Units (K),665.1
+FY26 Q1,Software & Services,Headcount,2052.0
+FY26 Q2,Devices,Revenue,1036.2
+FY26 Q2,Devices,COGS,790.6
+FY26 Q2,Devices,Gross Margin,245.6
+FY26 Q2,Devices,Opex,105.7
+FY26 Q2,Devices,Operating Income,139.9
+FY26 Q2,Devices,Units (K),5180.9
+FY26 Q2,Devices,Headcount,4557.0
+FY26 Q2,Infrastructure,Revenue,780.1
+FY26 Q2,Infrastructure,COGS,517.2
+FY26 Q2,Infrastructure,Gross Margin,262.9
+FY26 Q2,Infrastructure,Opex,103.7
+FY26 Q2,Infrastructure,Operating Income,159.2
+FY26 Q2,Infrastructure,Units (K),156.0
+FY26 Q2,Infrastructure,Headcount,3364.0
+FY26 Q2,Software & Services,Revenue,385.8
+FY26 Q2,Software & Services,COGS,109.2
+FY26 Q2,Software & Services,Gross Margin,276.6
+FY26 Q2,Software & Services,Opex,117.2
+FY26 Q2,Software & Services,Operating Income,159.4
+FY26 Q2,Software & Services,Units (K),701.5
+FY26 Q2,Software & Services,Headcount,2062.0
+FY26 Q3,Devices,Revenue,1066.4
+FY26 Q3,Devices,COGS,812.6
+FY26 Q3,Devices,Gross Margin,253.8
+FY26 Q3,Devices,Opex,108.3
+FY26 Q3,Devices,Operating Income,145.5
+FY26 Q3,Devices,Units (K),5332.2
+FY26 Q3,Devices,Headcount,4578.0
+FY26 Q3,Infrastructure,Revenue,783.7
+FY26 Q3,Infrastructure,COGS,518.8
+FY26 Q3,Infrastructure,Gross Margin,264.9
+FY26 Q3,Infrastructure,Opex,103.9
+FY26 Q3,Infrastructure,Operating Income,161.0
+FY26 Q3,Infrastructure,Units (K),156.7
+FY26 Q3,Infrastructure,Headcount,3379.0
+FY26 Q3,Software & Services,Revenue,402.7
+FY26 Q3,Software & Services,COGS,113.6
+FY26 Q3,Software & Services,Gross Margin,289.1
+FY26 Q3,Software & Services,Opex,121.7
+FY26 Q3,Software & Services,Operating Income,167.4
+FY26 Q3,Software & Services,Units (K),732.1
+FY26 Q3,Software & Services,Headcount,2071.0
+FY26 Q4,Devices,Revenue,1204.7
+FY26 Q4,Devices,COGS,916.8
+FY26 Q4,Devices,Gross Margin,287.9
+FY26 Q4,Devices,Opex,121.1
+FY26 Q4,Devices,Operating Income,166.8
+FY26 Q4,Devices,Units (K),6023.7
+FY26 Q4,Devices,Headcount,4599.0
+FY26 Q4,Infrastructure,Revenue,883.5
+FY26 Q4,Infrastructure,COGS,584.0
+FY26 Q4,Infrastructure,Gross Margin,299.5
+FY26 Q4,Infrastructure,Opex,115.8
+FY26 Q4,Infrastructure,Operating Income,183.7
+FY26 Q4,Infrastructure,Units (K),176.7
+FY26 Q4,Infrastructure,Headcount,3394.0
+FY26 Q4,Software & Services,Revenue,441.1
+FY26 Q4,Software & Services,COGS,123.9
+FY26 Q4,Software & Services,Gross Margin,317.2
+FY26 Q4,Software & Services,Opex,132.2
+FY26 Q4,Software & Services,Operating Income,185.0
+FY26 Q4,Software & Services,Units (K),801.9
+FY26 Q4,Software & Services,Headcount,2080.0
+FY27 Q1,Devices,Revenue,1030.7
+FY27 Q1,Devices,COGS,783.3
+FY27 Q1,Devices,Gross Margin,247.4
+FY27 Q1,Devices,Opex,104.5
+FY27 Q1,Devices,Operating Income,142.9
+FY27 Q1,Devices,Units (K),5153.5
+FY27 Q1,Devices,Headcount,4620.0
+FY27 Q1,Infrastructure,Revenue,766.1
+FY27 Q1,Infrastructure,COGS,505.6
+FY27 Q1,Infrastructure,Gross Margin,260.5
+FY27 Q1,Infrastructure,Opex,101.2
+FY27 Q1,Infrastructure,Operating Income,159.3
+FY27 Q1,Infrastructure,Units (K),153.2
+FY27 Q1,Infrastructure,Headcount,3410.0
+FY27 Q1,Software & Services,Revenue,417.0
+FY27 Q1,Software & Services,COGS,116.8
+FY27 Q1,Software & Services,Gross Margin,300.2
+FY27 Q1,Software & Services,Opex,125.1
+FY27 Q1,Software & Services,Operating Income,175.1
+FY27 Q1,Software & Services,Units (K),758.3
+FY27 Q1,Software & Services,Headcount,2090.0
